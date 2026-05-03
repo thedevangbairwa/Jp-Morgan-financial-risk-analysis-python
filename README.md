@@ -4,7 +4,7 @@
 
 This repository contains an end-to-end financial risk and customer behavior analysis based on transactional account data. The project is designed to demonstrate practical data analysis skills including data cleaning, exploratory analysis, customer profiling, risk identification, visualization, and statistical hypothesis testing.
 
----
+
 
 ## Business Problem
 
@@ -15,7 +15,7 @@ Banks need to understand customer transaction behavior and identify early warnin
 3. Which accounts show risky patterns such as large withdrawals, unstable balances, or anomalous transactions?
 4. Does high transaction volume reliably indicate higher average balance?
 
----
+
 
 ## Dataset Summary
 
@@ -28,7 +28,7 @@ The dataset contains transaction-level records including:
 
 Transaction types observed include Deposit, Withdrawal, Payment, and Transfer.
 
----
+
 
 ## Tools & Skills Used
 
@@ -47,7 +47,7 @@ Transaction types observed include Deposit, Withdrawal, Payment, and Transfer.
 - **Exploratory Data Analysis (EDA)**
  - Trend analysis, KPI calculation, and pattern identification
 
----
+
 
 ## Approach Summary
 
@@ -76,7 +76,7 @@ The project was completed in the following stages:
 6. Hypothesis testing
   - Welch’s t-test to evaluate whether high-volume accounts have higher average balances than low-volume accounts
 
----
+
 
 ## Key Assumptions
 
@@ -85,7 +85,7 @@ The project was completed in the following stages:
 3. Dormant accounts are defined as accounts with a transaction gap of 60 days or more between consecutive transactions
 4. Anomaly detection uses a Z-score threshold of absolute value greater than 3
 
----
+
 
 ## Results Summary
 
@@ -101,7 +101,7 @@ The project was completed in the following stages:
   - The statistical test did not show a significant difference in average balances between high-volume and low-volume transaction accounts.
   - Transaction volume alone should not be treated as a proxy for customer financial strength.
 
----
+
 
 ## Key Business Insights
 
@@ -110,7 +110,7 @@ The project was completed in the following stages:
 3. Balance volatility is a strong and practical monitoring feature because it highlights unstable account behavior.
 4. Outlier transactions justify automated alerts, since extreme values occur even when most transactions are within a normal range.
 
----
+
 
 ## Recommendations
 
@@ -124,7 +124,7 @@ The project was completed in the following stages:
   - Do not use transaction volume alone to classify customer value.
   - Use a combination of net inflow, average balance, and balance stability for value and risk classification.
 
----
+
 
 ## Repository Structure
 
@@ -155,40 +155,38 @@ Jp-Morgan-financial-risk-analysis-python/
 
 ## Screenshots
 
-Credit vs Debit Trend
+**Credit vs Debit Trend**
+
 ![Credit vs Debit Trend](visuals/credit_vs_debit_trend.png)
 
-Net Transaction Trend
+**Net Transaction Trend**
+
 ![Net Transaction Trend](visuals/net_transaction_trend.png)
 
-Activity Level Distribution
+**Activity Level Distribution**
+
 ![Activity Level Distribution](visuals/activity_level_distribution.png)
 
-Transaction Amount Distribution
+**Transaction Amount Distribution**
+
 ![Transaction Amount Distribution](visuals/transaction_amount_distribution.png)
 
-Balance Volatility Distribution
+**Balance Volatility Distribution**
+
 ![Balance Volatility Distribution](visuals/balance_volatility_distribution.png)
 
-Balance vs Transaction Volume
+**Balance vs Transaction Volume**
+
 ![Balance vs Volume](visuals/balance_vs_volume_scatter.png)
 
----
 
-## Project Artifacts
 
-Notebook:
-notebooks/Financial_Risk_Analysis.ipynb
+## Video Walkthrough
+A short video explaining the dashboards, insights, and business recommendations:
 
-Report:
-reports/Financial_Risk_Analysis_Report.pdf
-
-Video Link:
-
-Add your public video link inside the PDF report and optionally here:
 https://www.loom.com/share/221cbfd770e5409082f6af21ed8d0135
 
----
+
 
 ## How to Run Locally
 
@@ -198,13 +196,13 @@ https://www.loom.com/share/221cbfd770e5409082f6af21ed8d0135
 3. Open and run the notebook:
   notebooks/Financial_Risk_Analysis.ipynb
 
----
+
 
 ## Notes for Reviewers
 
 The notebook contains the full workflow, including data cleaning, analysis outputs, visualizations, and statistical testing. The PDF report provides a structured summary and includes the video link for the project walkthrough.
 
----
+
 
 ## Author
 
